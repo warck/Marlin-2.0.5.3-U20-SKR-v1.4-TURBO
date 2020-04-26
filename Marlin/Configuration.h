@@ -414,7 +414,7 @@
 //#define TEMP_SENSOR_5 0
 //#define TEMP_SENSOR_6 0
 //#define TEMP_SENSOR_7 0
-#define TEMP_SENSOR_BED 0
+#define TEMP_SENSOR_BED 1
 //#define TEMP_SENSOR_PROBE 0
 //#define TEMP_SENSOR_CHAMBER 0
 
@@ -1449,7 +1449,7 @@
 #define EEPROM_CHITCHAT       // Give feedback on EEPROM commands. Disable to save PROGMEM.
 #define EEPROM_BOOT_SILENT    // Keep M503 quiet and only give errors during first load
 #if ENABLED(EEPROM_SETTINGS)
-  //#define EEPROM_AUTO_INIT  // Init EEPROM automatically on any errors.
+  #define EEPROM_AUTO_INIT  // Init EEPROM automatically on any errors.
 #endif
 
 //
